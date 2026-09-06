@@ -2,7 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agribuisnessanalysis.streamlit.app/)
 [![Code Style: PEP8](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://peps.python.org/pep-0008/)
 [![Domain: Agritech & Agribusiness](https://img.shields.io/badge/domain-agritech%20%26%20agribusiness-brightgreen.svg)]()
 
@@ -16,7 +16,7 @@ This repository provides four self-contained, fully executable Jupyter Notebooks
 
 | Component | 1-Click Live Access | Primary Focus & Domain Deliverables |
 | :--- | :--- | :--- |
-| **Interactive Web App** | [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io) | **Streamlit Cloud Dashboard**: District selector, climate shock sliders, real-time fan charts & risk matrices |
+| **Interactive Web App** | [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agribuisnessanalysis.streamlit.app/) | **Live Streamlit Dashboard**: District selector, climate shock sliders, real-time fan charts & risk matrices |
 | **Week 1 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/01_week1_strategic_environmental_mapping.ipynb) | **Strategic Planning**: Agro-Ecological Zoning (AEZ), PESTLE quantitative model, Porter's 5 Forces, produce matrix |
 | **Week 2 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/02_week2_acquisition_preprocessing.ipynb) | **Data Preprocessing**: Multi-modal telemetry simulator, MCAR/MAR/MNAR imputation, PCHIP, rolling IQR Winsorization |
 | **Week 3 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/03_week3_eda_visualizations.ipynb) | **EDA & Visual Reporting**: STL decomposition, 4 specialized domain charts, dynamic freight rerouting matrices |
@@ -223,13 +223,12 @@ Execute the notebooks sequentially from Week 1 to Week 4. Each notebook is 100% 
 streamlit run app.py
 ```
 
-### 5. Deploy Free to Streamlit Community Cloud (30-Second Setup)
-1. Go to [share.streamlit.io](https://share.streamlit.io) and log in with your GitHub account.
-2. Click **New app** and specify:
-   - **Repository**: `Anirban4ru/Junior-Data-Science-Analyst---Agribusiness`
-   - **Branch**: `main`
-   - **Main file path**: `app.py`
-3. Click **Deploy!** Your interactive agritech sourcing desk is instantly live on the web with a public URL.
+### 5. Live Production Web App
+The interactive dashboard is live and publicly accessible 24/7 at:  
+👉 **[https://agribuisnessanalysis.streamlit.app/](https://agribuisnessanalysis.streamlit.app/)**
+
+*(To redeploy or run a private instance, connect your repository to [share.streamlit.io](https://share.streamlit.io) targeting `app.py` on branch `main`.)*
+
 
 ---
 
