@@ -9,7 +9,7 @@ description = "Production-grade 4-Week Agribusiness Data Science & Strategy Curr
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name = "Principal Agribusiness Data Scientist", email = "lead.agritech@domain.org" }
+    { name = "Anirban", email = "anirban4ru@gmail.com" }
 ]
 dependencies = [
     "pandas>=2.2.0",

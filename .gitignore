@@ -46,8 +46,3 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Scratch scripts
-scratch/
-
-# Large generated data outputs (optional cache, keep parquet if lightweight)
-# data/*.parquet

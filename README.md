@@ -5,7 +5,7 @@
 [![Code Style: PEP8](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://peps.python.org/pep-0008/)
 [![Domain: Agritech & Agribusiness](https://img.shields.io/badge/domain-agritech%20%26%20agribusiness-brightgreen.svg)]()
 
-A comprehensive, production-grade 4-week practical curriculum designed for **Principal Agribusiness Data Scientists**, **Agritech Solutions Architects**, and **Commodity Procurement Strategists**. 
+A production-grade, end-to-end practical repository for agricultural data science, commodity market analytics, and strategic procurement. 
 
 This repository provides four self-contained, fully executable Jupyter Notebooks covering the entire spectrum of modern agricultural analytics: from macro agro-ecological zoning and competitive supply chain strategy, through biophysical telemetry data engineering and nonlinear shock visualization, to probabilistic quantile forecasting and MLOps governance under climate anomalies.
 
@@ -52,12 +52,12 @@ flowchart TD
 ## Repository Structure
 
 ```
-YuvaIntern/
-├── README.md                                      # Comprehensive curriculum guide & architecture
+Junior-Data-Science-Analyst---Agribusiness/
+├── README.md                                      # Project documentation & architecture
 ├── requirements.txt                              # Pinned Python package dependencies
-├── pyproject.toml                                # Modern packaging configuration
-├── .gitignore                                    # Agricultural telemetry, cache, and parquet ignores
-├── data/                                         # Parquet datasets and serializations
+├── pyproject.toml                                # Packaging configuration
+├── .gitignore                                    # Telemetry, cache, and parquet ignores
+├── data/                                         # Processed telemetry and reference data
 │   ├── .gitkeep
 │   └── clean_agritech_telemetry.parquet          # Cleaned multi-modal dataset (Week 2 output)
 └── notebooks/
@@ -176,15 +176,15 @@ YuvaIntern/
 
 ### 1. Clone Repository & Setup Virtual Environment
 ```bash
-git clone https://github.com/your-org/agribusiness-datascience-strategy.git
-cd agribusiness-datascience-strategy
+git clone https://github.com/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness.git
+cd Junior-Data-Science-Analyst---Agribusiness
 
 # Using Python venv
 python -m venv .venv
 source .venv/bin/activate  # On Linux/macOS
 # .venv\Scripts\activate   # On Windows
 
-# Or using uv (recommended for ultra-fast setup)
+# Or using uv (recommended for fast setup)
 uv venv .venv --python 3.12
 source .venv/bin/activate
 ```
@@ -207,10 +207,8 @@ Execute the notebooks sequentially from Week 1 to Week 4. Each notebook is 100% 
 
 ---
 
-## Production Execution & PEP 8 Standards
-- All code cells adhere to PEP 8 standards with strict type hints and descriptive docstrings.
-- Visualizations use high-DPI Seaborn/Matplotlib configurations (`dpi=300`, curated hex palettes, sans-serif modern typography).
-- Parquet outputs utilize Snappy compression for minimal disk footprint and lightning-fast columnar reads.
+## Production Execution & Code Standards
+- All code cells adhere to PEP 8 standards with explicit type hints and descriptive docstrings.
+- Visualizations use high-DPI configurations (`dpi=300`, curated hex palettes, sans-serif typography).
+- Parquet outputs utilize Snappy compression for minimal disk footprint and fast columnar reads.
 
----
-*Authored by Principal Agribusiness Data Scientist & Agritech Solutions Architect.*
