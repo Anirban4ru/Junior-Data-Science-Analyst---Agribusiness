@@ -2,12 +2,25 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 [![Code Style: PEP8](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://peps.python.org/pep-0008/)
 [![Domain: Agritech & Agribusiness](https://img.shields.io/badge/domain-agritech%20%26%20agribusiness-brightgreen.svg)]()
 
 A production-grade, end-to-end practical repository for agricultural data science, commodity market analytics, and strategic procurement. 
 
-This repository provides four self-contained, fully executable Jupyter Notebooks covering the entire spectrum of modern agricultural analytics: from macro agro-ecological zoning and competitive supply chain strategy, through biophysical telemetry data engineering and nonlinear shock visualization, to probabilistic quantile forecasting and MLOps governance under climate anomalies.
+This repository provides four self-contained, fully executable Jupyter Notebooks and an interactive Streamlit web dashboard covering the entire spectrum of modern agricultural analytics: from macro agro-ecological zoning and competitive supply chain strategy, through biophysical telemetry data engineering and nonlinear shock visualization, to probabilistic quantile forecasting and MLOps governance under climate anomalies.
+
+---
+
+## 🚀 Live Interactive Execution & Web Dashboards
+
+| Component | 1-Click Live Access | Primary Focus & Domain Deliverables |
+| :--- | :--- | :--- |
+| **Interactive Web App** | [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io) | **Streamlit Cloud Dashboard**: District selector, climate shock sliders, real-time fan charts & risk matrices |
+| **Week 1 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/01_week1_strategic_environmental_mapping.ipynb) | **Strategic Planning**: Agro-Ecological Zoning (AEZ), PESTLE quantitative model, Porter's 5 Forces, produce matrix |
+| **Week 2 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/02_week2_acquisition_preprocessing.ipynb) | **Data Preprocessing**: Multi-modal telemetry simulator, MCAR/MAR/MNAR imputation, PCHIP, rolling IQR Winsorization |
+| **Week 3 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/03_week3_eda_visualizations.ipynb) | **EDA & Visual Reporting**: STL decomposition, 4 specialized domain charts, dynamic freight rerouting matrices |
+| **Week 4 Notebook** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anirban4ru/Junior-Data-Science-Analyst---Agribusiness/blob/main/notebooks/04_week4_strategy_evaluation_models.ipynb) | **MLOps & Governance**: ARIMA/OLS audit, GDD & Tetens VPD, Quantile Boosting ($P_{10}, P_{50}, P_{90}$), KS drift |
 
 ---
 
@@ -204,6 +217,19 @@ jupyter notebook notebooks/
 ```
 
 Execute the notebooks sequentially from Week 1 to Week 4. Each notebook is 100% self-contained and will run cleanly with zero external data dependencies.
+
+### 4. Launch Interactive Streamlit Dashboard Locally
+```bash
+streamlit run app.py
+```
+
+### 5. Deploy Free to Streamlit Community Cloud (30-Second Setup)
+1. Go to [share.streamlit.io](https://share.streamlit.io) and log in with your GitHub account.
+2. Click **New app** and specify:
+   - **Repository**: `Anirban4ru/Junior-Data-Science-Analyst---Agribusiness`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+3. Click **Deploy!** Your interactive agritech sourcing desk is instantly live on the web with a public URL.
 
 ---
 
